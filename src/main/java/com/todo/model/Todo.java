@@ -7,6 +7,7 @@ public class Todo {
     private String description;
     private boolean completed;
 
+    
     public Todo(){}
 
     public Todo(String id,String title,String description,boolean completed){
