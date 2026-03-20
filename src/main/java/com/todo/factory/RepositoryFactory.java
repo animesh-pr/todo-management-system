@@ -7,6 +7,7 @@ import com.todo.repository.postgres.PostgresTodoRepository;
 
 public class RepositoryFactory {
 
+    
     // Fix for Sonar rule java:S1118
     private RepositoryFactory() {
         throw new UnsupportedOperationException("Utility class");
