@@ -12,6 +12,7 @@ import com.todo.service.TodoService;
 
 class TodoServiceTest {
 
+    
     @Test
     void createAndFetch(){
         TodoService service = new TodoService(new MysqlTodoRepository());
