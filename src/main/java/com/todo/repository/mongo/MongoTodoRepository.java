@@ -14,6 +14,7 @@ public class MongoTodoRepository implements TodoDao {
     private final Map<String,Todo> storage = new HashMap<>();
 
     @Override
+    
     public void create(Todo todo){
         storage.put(todo.getId(),todo);
     }

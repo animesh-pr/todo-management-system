@@ -120,6 +120,4 @@ A demo video of the application is included in the repository.
 
 ---
 
-## Author
-
-**Animesh Vaish**
+Animesh Vaish
